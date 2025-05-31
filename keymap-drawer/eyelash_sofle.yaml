@@ -60,7 +60,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - BT
   - {t: QWERTY, h: toggle}
-  - $$mdi:keyboard-space$$
+  - {t: F_Keys, h: toggle}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -267,9 +267,3 @@ combos:
 - p: [35, 36]
   k: F_Keys
   l: [Focal]
-- p: [35, 36, 34]
-  k: {t: F_Keys, h: toggle}
-  l: [Focal]
-- p: [34, 35, 36]
-  k: {t: Focal, h: toggle}
-  l: [F_Keys]
