@@ -186,8 +186,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - LGUI
   - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Focal, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -269,4 +269,7 @@ combos:
   l: [Focal]
 - p: [35, 36, 34]
   k: {t: F_Keys, h: toggle}
-  l: [F_Keys, Focal]
+  l: [Focal]
+- p: [34, 35, 36]
+  k: {t: Focal, h: toggle}
+  l: [F_Keys]
