@@ -78,7 +78,7 @@
 &rgb_ug RGB_TOG  &kp PERIOD       &kp NUMBER_1     &kp N2     &kp N3     &kp PLUS     &mmv MOVE_DOWN   &kp PG_UP        &kp HOME         &kp UP      &kp END    &kp LEFT_BRACE    &kp RIGHT_BRACE
 &rgb_ug RGB_HUI  &kp NUMBER_0     &kp N4           &kp N5     &kp N6     &kp MINUS    &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &rgb_ug RGB_SAI  &kp EQUAL        &kp N7           &kp N8     &kp N9     &kp ASTRK    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE       &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &kp SLASH  &kp ENTER  &trans       &mo 0            &trans           &trans           &trans      &trans     &trans
+&kp C_MUTE       &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &kp SLASH  &kp ENTER  &to 0        &to 0            &trans           &trans           &trans      &trans     &trans
             >;
 
             display-name = "F_Keys";
