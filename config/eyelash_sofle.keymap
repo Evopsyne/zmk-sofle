@@ -65,7 +65,7 @@
 &kp LEFT_GUI  &kp V      &kp L      &kp H      &kp G             &kp K     &bt BT_PRV       &kp Q    &kp F         &kp O           &kp U          &kp J       &kp BSLH
 &kp TAB       &kp S      &kp R      &kp N      &kp T             &kp B     &kp C_VOL_DN     &kp Y    &kp C         &kp A           &kp E          &kp I       &kp RET
 &kp ESCAPE    &kp Z      &kp X      &kp M      &kp D             &kp P     &kp C_VOLUME_UP  &kp SQT  &kp W         &kp COMMA       &kp SEMICOLON  &kp PERIOD  &kp CAPSLOCK
-&kp C_MUTE    &kp EQUAL  &kp SLASH  &kp SPACE  &kp LEFT_CONTROL  &mo 3     &to 2            &to 1    &kp LEFT_ALT  &kp LEFT_SHIFT  &kp BACKSPACE  &kp MINUS
+&kp C_MUTE    &kp EQUAL  &kp SLASH  &kp SPACE  &kp LEFT_CONTROL  &to 1     &to 2            &to 3    &kp LEFT_ALT  &kp LEFT_SHIFT  &kp BACKSPACE  &kp MINUS
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -87,7 +87,7 @@
 
         QWERTY {
             bindings = <
-&kp N1     &kp N2     &kp N3    &kp N4     &kp N5        &kp N6    &bt BT_NXT         &kp N7  &kp N8     &kp N9     &kp N0    &kp MINUS  &kp BSPC
+&kp ESC    &kp N1     &kp N2    &kp N3     &kp N4        &kp N5    &bt BT_NXT         &kp N6  &kp N7     &kp N8     &kp N9    &kp N0     &kp MINUS
 &kp TAB    &kp Q      &kp W     &kp E      &kp R         &kp T     &bt BT_PRV         &kp Y   &kp U      &kp I      &kp O     &kp P      &kp BSPC
 &kp CAPS   &kp A      &kp S     &kp D      &kp F         &kp G     &kp C_VOLUME_DOWN  &kp H   &kp J      &kp K      &kp L     &kp SEMI   &kp ENTER
 &kp LSHFT  &kp Z      &kp X     &kp C      &kp V         &kp B     &kp C_VOLUME_UP    &kp N   &kp M      &kp COMMA  &kp DOT   &kp FSLH   &kp APOS
