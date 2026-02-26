@@ -174,7 +174,7 @@
             bindings = <
 &kp GRAVE        &kp F1           &kp F2           &kp F3     &kp F4     &kp F5       &mmv MOVE_UP     &kp F6           &kp F7           &kp F8     &kp F9         &kp F10               &kp PRINTSCREEN
 &rgb_ug RGB_TOG  &kp PERIOD       &kp NUMBER_1     &kp N2     &kp N3     &kp PLUS     &mmv MOVE_DOWN   &kp PG_UP        &kp HOME         &kp UP     &kp END        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&rgb_ug RGB_HUI  &kp NUMBER_0     &kp N4           &kp N5     &kp N6     &kp MINUS    &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN   &kp RIGHT      &kp LC(SLASH)         &trans
+&rgb_ug RGB_HUI  &kp NUMBER_0     &kp N4           &kp N5     &kp N6     &kp MINUS    &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN   &kp RIGHT      &kp LC(SLASH)         &kp ENTER
 &rgb_ug RGB_SAI  &kp EQUAL        &kp N7           &kp N8     &kp N9     &kp ASTRK    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp COMMA  &kp SEMICOLON  &kp PERIOD            &kp CAPSLOCK
 &kp C_MUTE       &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &kp SPACE  &kp SLASH  &kp ENTER    &to 0            &to 0            &trans           &trans     &kp F11        &kp F12
             >;
@@ -210,5 +210,3 @@
         };
     };
 };
-
-
