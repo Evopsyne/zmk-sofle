@@ -93,17 +93,17 @@ layers:
   - (
   - )
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '0', type: held}
-  - {t: '4', s: $, type: held}
-  - {t: '5', s: '%', type: held}
+  - '0'
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
   - {t: '6', s: ^}
   - {t: '-', s: _}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
   - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:arrow-down-bold$$', type: held alternate}
-  - {t: '$$mdi:arrow-right-bold$$', type: held alternate}
-  - {t: Ctl+/, s: 'Ctl+?', type: held alternate}
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: Ctl+/, s: 'Ctl+?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
@@ -262,35 +262,35 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [27, 28, 29]
-  k: F_Keys
-  l: [Focal]
+  k: {t: F_Keys, h: toggle}
+  l: [Focal, F_Keys, QWERTY]
 - p: [35, 36, 37]
-  k: F_Keys
-  l: [Focal]
+  k: {t: F_Keys, h: toggle}
+  l: [Focal, F_Keys, QWERTY]
 - p: [48, 49]
   k: '!'
-  l: [Focal]
+  l: [Focal, F_Keys]
 - p: [34, 30]
   k: (
-  l: [Focal]
+  l: [Focal, F_Keys]
 - p: [35, 29]
   k: )
-  l: [Focal]
+  l: [Focal, F_Keys]
 - p: [21, 17]
   k: {t: '[', s: '{'}
-  l: [Focal]
+  l: [Focal, F_Keys]
 - p: [22, 16]
   k: {t: ']', s: '}'}
-  l: [Focal]
+  l: [Focal, F_Keys]
 - p: [47, 43]
   k: '{'
-  l: [Focal]
+  l: [Focal, F_Keys]
 - p: [48, 42]
   k: '}'
-  l: [Focal]
+  l: [Focal, F_Keys]
 - p: [33, 34]
   k: _
-  l: [Focal]
+  l: [Focal, F_Keys]
 - p: [42, 43]
   k: +
   l: [Focal]
@@ -308,15 +308,16 @@ combos:
   l: [Focal]
 - p: [47, 48]
   k: '?'
-  l: [Focal]
+  l: [Focal, F_Keys]
 - p: [50, 49]
   k: '&'
-  l: [Focal]
+  l: [Focal, F_Keys]
 - p: [46, 47]
   k: ^
-  l: [Focal]
+  l: [Focal, F_Keys]
 - p: [17, 18]
   k: '%'
-  l: [Focal]
+  l: [Focal, F_Keys]
 - p: [20, 21]
   k: '@'
+  l: [Focal, F_Keys]
