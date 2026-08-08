@@ -263,10 +263,10 @@ layers:
 combos:
 - p: [27, 28, 29]
   k: {t: F_Keys, h: toggle}
-  l: [Focal]
+  l: [Focal, F_Keys]
 - p: [35, 36, 37]
   k: {t: F_Keys, h: toggle}
-  l: [Focal]
+  l: [Focal, F_Keys]
 - p: [48, 49]
   k: '!'
   l: [Focal, F_Keys]
@@ -321,9 +321,3 @@ combos:
 - p: [20, 21]
   k: '@'
   l: [Focal, F_Keys]
-- p: [35, 36, 37]
-  k: {t: Focal, h: toggle}
-  l: [F_Keys]
-- p: [27, 28, 29]
-  k: {t: Focal, h: toggle}
-  l: [F_Keys]
